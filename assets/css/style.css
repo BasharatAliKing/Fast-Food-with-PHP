@@ -1,0 +1,938 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.modal{
+    width: 50%;
+    text-align: center;
+}
+#header{
+    position:absolute;
+    z-index: 20;
+    margin-top: 20px;
+   
+    width: 100%;
+}
+#header .navbar-nav{
+    position: absolute;
+    right: 0px;
+}
+.navbar-expand-lg {
+    background-color: rgba(0, 128, 0, 0);
+    box-shadow: none;
+}
+#header ul li a{
+    padding: 10px 20px;
+    /* color: #da0024; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#header ul li .dropdown-item:hover{
+    background-color: #da0024 ;
+    color: white;
+}
+#header ul  li a:hover{
+    color: #da0024;
+    background-color: none;
+}
+.nav-link{
+    background-color: none;
+}
+#header .active{
+   
+    color: #da0024;
+}
+nav ul li.active {
+    background-color: rgba(0, 0, 0, 0);
+}
+nav ul li:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mySlides {display:none;}
+#home{
+    position: absolute;
+    width: 100%;
+   height: 100%;
+    z-index: 10;
+}
+#home img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#home .upper{
+    position: absolute;
+    z-index: 30;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+#home h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+#home h1 span{
+    color: #da0024;
+}
+#home p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+#home .btn{
+    position: absolute;
+    margin-top: 40px;
+    height: 60px;
+    background-color: #da0024;
+    padding: 0px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+#home .btn:hover{
+    background-color: black;
+    transition: .9s;
+}
+#choose{
+    margin-top: 740px;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+    
+}
+#choose h6{
+    background-color: #da0024;
+    padding: 6px 0px;
+    margin: 0px 470px;
+    text-align: center;
+    color: white;
+}
+#choose h1{
+    font-weight: bold;
+    margin-top: 15px;
+}
+#choose h3{
+    font-weight: bold;
+}
+#choose .card{
+    border: none;
+    box-shadow: none;
+    color: black;
+}
+#choose img{
+  padding: 0px 30px;
+}
+#choose #bor{
+    border-right: 1px solid rgb(187, 187, 187);
+}
+#fast-food{
+    margin-top: 1300px;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+#fast-food img{
+    size: 90%;
+}
+#fast-food .upper-pic{
+    position: absolute;
+    z-index: 20;
+    margin-left: 315px;
+    margin-top: 250px;
+}
+#fast-food .upper-pic img{
+    width: 130%;
+}
+#fast-food h4{
+    z-index: 30;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: -105px;
+}
+#fast-food h6{
+    text-align: center;
+    margin-left: 25px;
+    font-weight: bold;
+}
+#fast-food .container{
+    margin: 0px 100px;
+    border-width: 1px;
+    border-style: none;
+    border-radius: 0;
+    background-color: rgba(252, 247, 235, 1);
+}
+#fast-food h5{
+    color: white;
+    font-weight: bold;
+    background-color: #da0024;
+    padding: 5px 10px;
+    margin-top: 80px;
+    margin-right: 295px;
+}
+#fast-food h1{
+    font-weight: 900;
+}
+#fast-food p{
+    color: #6e6e6e;
+    margin-right: 100px;
+    font-size: 18px;
+}
+#fast-food i{
+    color:#da0024;
+    margin-right: 10px;
+}
+#fast-food span{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #6e6e6e;
+}
+#fast-food .btn{
+    position: absolute;
+    height: 60px;
+    margin-top: 70px;
+    background-color: #da0024;
+    padding: 18px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+#fast-food .btn:hover{
+    background-color: black;
+    transition: .9s;
+}
+#tasty{
+    position: absolute;
+    z-index: 20;
+    margin-top: 2200px;
+    text-align: center;
+    width: 100%;
+}
+#tasty h6{
+    background-color: #da0024;
+    padding: 6px 0px;
+    margin: 0px 490px;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+#tasty h1{
+    font-weight: bold;
+    margin-top: 15px;
+}
+#tasty .upper-pic{
+    position: absolute;
+    z-index: 20;
+    margin-left: 220px;
+    margin-top: 0px;
+}
+#tasty .upper-pic img{
+    width: 100%;
+}
+#tasty h5{
+    text-align: center;
+    margin-top: -70px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+#tasty .card{
+    border: none;
+    text-align: center;
+   box-shadow: none;
+   color: black;
+}
+#tasty .card a{
+    color: black;
+}
+#tasty .card img{
+    padding: 0px 20px;
+}
+#tasty .card h3{
+    font-weight: bold;
+}
+#tasty .offset-md-4{
+    text-align: center;
+}
+#tasty .btn{
+    position: absolute;
+    height:60px;
+    margin-top: 40px;
+    background-color: #da0024;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+}
+#tasty .btn:hover{
+    background-color: black;
+    transition: .9s;
+}
+#nature{
+    position:absolute;
+    z-index: 20;
+    text-align: start;
+    margin-top: 3400px;
+    background-color: rgba(252, 247, 235, 1);
+    height: 100%;
+    padding-top: 60px;
+}
+#nature #natures{
+    padding: 30px 100px;
+}
+#nature h6{
+    margin: 0px;
+    margin-right: 148px;
+    margin-top: 20px;
+    background-color: #da0024;
+    padding: 6px 6px;
+    color: white;
+    text-align: start;
+}
+#nature h1{
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: 0;
+    color: #000000;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+#nature .btn{
+    position: absolute;
+    height: 60px;
+    margin-top: 70px;
+    background-color: #da0024;
+    padding: 18px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+#nature .btn:hover{
+    background-color: black;
+    transition: .9s;
+}
+#menu{
+    margin-top: 100px;
+}
+#menu .upper-menu{
+    position: absolute;
+    z-index: 30;
+    margin-left: 460px;
+    margin-top: 200px;
+    width: 40%;
+}
+#menu h6{
+    margin-right: 115px;
+}
+#menu h1,h4{
+    color: white;
+}
+#menu h1{
+    font-size: 60px;
+    font-weight: boler;
+}
+#menu .col-md-4 img{
+    margin-left: 40px;
+}
+#menu .pic-upper{
+    position: absolute;
+    z-index: 30;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 100%;
+}
+#menu .pic-upper h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+#menu .pic-upper h4{
+    color: #da0024;
+    font-weight: bold;
+}
+#menu .pic-upper h5{
+    margin-top: 30px;
+    font-weight: 600;
+}
+#menu-offers{
+    margin-top: 30px;
+    text-align: center;
+}
+#menu-offers .modal-trigger{
+    color: black;
+}
+#menu-offer .modal-trigger a:hover{
+    text-decoration: none;
+}
+#menu-offers h1{
+   font-size: 50px;
+}
+#menu-offers #box{
+    text-align: start;
+    margin-top: 20px;
+}
+#menu-offers #side{
+    background-color: white;
+   
+    padding: 30px;
+   
+}
+#menu-offers .borders{
+   padding: 20px;
+   background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 30px 0px #eeeeee;
+    border-radius: 10px;
+}
+#menu-offers img{
+    width: 100%;
+}
+#menu-offers h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+#menu-offers .col-6{
+    padding-left: 0px;
+}
+#menu-offers h5{
+    font-weight: bold;
+    font-size: 18px;
+}
+#menu-offers .btn {
+    margin-top: -55px;
+    margin-left: -80px;
+}
+#menu-offers .col-md-6{
+    margin-top: 50px;
+}
+#mobile{
+    margin-top: 150px;
+    background-color: rgba(252, 247, 235, 1);
+    height: 70%;
+}
+#mobile img{
+    margin-top: -100px;
+    width: 110%;
+}
+#mobile h6{
+    margin-right: 370px;
+    margin-top: 50px;
+}
+#mobile i{
+    font-size: 40px;
+}
+#mobile #btn-1{
+    margin-top: 30px;
+    background-color: #fbd100;
+    border-radius: 50px;
+}
+#mobile #btn-1 .row{
+    margin-top: 20px;
+}
+#mobile #btn-2 .row{
+    margin-top: 20px;
+}
+#mobile h8{
+    font-weight: 600;
+    font-size: 14px;
+}
+#mobile h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+#mobile i{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#mobile #btn-2{
+    margin-top: 30px;
+    background-color: #da0024;
+    border-radius: 50px;
+    /* color: white; */
+    margin-left: 10px;
+}
+#mobile #btn-2 img{
+    color: white;
+   margin: 0px;
+   margin-left: 10px;
+   margin-top: 10px;
+   
+}
+
+#latest{
+    margin-top: 100px;
+    text-align: center;
+}
+#latest h6{
+    margin: 0px;
+    margin: 0px 465px;
+}
+#latest .card{
+    margin-top: 20px;
+    text-align: start;
+    box-shadow: 0px 0px 40px 0px #e3e3e3;
+}
+#latest .card-title{
+    font-weight: 700;
+}
+#latest .card-title:hover{
+    color: #da0024;
+    transition: .8s;
+}
+#latest p{
+    margin-top: 20px;
+}
+#book-now{
+    margin-top: -210px;
+    width: 100%;
+    background-color: rgba(252, 247, 235, 1);
+    height: 160%;   
+}
+#book-now .container-fluid{
+    padding: 100px;
+    margin-top: 150px;
+}
+#book-now h6{
+    margin-right: 280px;
+}
+#book-now .media{
+    margin-top: 30px;
+}
+#book-now .media img{
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+}
+#book-now .media h3{
+    font-weight: 600;
+}
+#book-now .media p{
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+#book-now .media-body{
+    margin-left: 10px;
+}
+#book-now #table .text{
+    border-width: 0 0 1px 0;
+    padding: 20px ;
+    width: 80%;
+}
+#book-now #table{
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+#book-now .btn {
+    text-align: start;
+    margin-left: -70px;
+}
+
+#footer-logos{
+    background-color: #000000;
+    padding-top: 30px;
+    color: white;
+}
+#footer-logos i{
+    font-size: 20px;
+    color: white;
+    padding: 22px;
+    margin-top: 20px;
+}
+#footer-logos img{
+    margin-top: 20px;
+}
+#footer-logos i:hover{
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    color: black;
+    transition: .2s;
+}
+#footer-logos #i-logos{
+    text-align: right;
+}
+#footer-logos h2{
+    font-weight: 700;
+}
+#footer-logos .col-md-3 i{
+         font-size: 14px;
+         font-weight: 100;
+         margin: 0px;
+         padding: 0px;
+         padding-top:8px ;
+}
+#footer-logos  ul li a {
+    font-size: 14px;
+    padding: 4px;
+}
+#footer-logos  ul li:hover{
+    color: #6e6e6e;
+}
+#footer-logos .col-md-3 ul li{
+    display: flex;
+}
+#footer-logos hr{
+    color: white;
+    border: 1px solid white;
+    margin: 80px 0px;
+}
+footer{
+    margin-bottom: 40px;
+    color: white;
+}
+footer:hover{
+  transition: 0.6s;
+    color: #da0024;
+}
+
+@media(max-width:992px){
+    #home .upper {
+        position: absolute;
+        z-index: 30;
+        margin-top: 140px;
+        margin-left: 75px;
+    }
+    #choose {
+        margin-top: 520px;
+    }
+    #choose h6 {
+        margin: 0px 270px;
+    }
+    #choose .card{
+        border: 1px solid rgb(163, 163, 163);
+        margin-top: 30px;
+    }
+    #choose #bor{
+        border: none;
+    }
+    #fast-food {
+        margin-top: 1460px;
+    }
+    #fast-food h5 {
+        margin-right: 75px;
+    }
+    #fasr-food{
+        width: 100%;
+    }
+    #fast-food .container {
+        margin: 0px 50px;
+    }
+}
+@media(max-width:768px){
+    #home .upper {
+        position: absolute;
+        z-index: 30;
+        margin-top: 135px;
+    margin-left: 35px;
+    }
+    #home h1{
+        font-size: 40px;
+    }
+    #home p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    #home .btn {
+        margin-top: 20px;
+    }
+    #choose h6 {
+        margin: 0px 175px;
+    }
+    #fast-food .container {
+        margin: 0px;
+        margin-right: 0px;
+        width: 100%;
+        
+    }
+    #fast-food .col-md-6{
+        width: 100%;
+    }
+    #fast-food img{
+        margin: 0px;
+    }
+    #tasty {
+        margin-top: 3000px;
+        
+    }
+    #fast-food h5{
+        color: white;
+        font-weight: bold;
+        background-color: #da0024;
+        padding: 5px 10px;
+        margin-top: 80px;
+        /* margin-right: 295px; */
+    }
+    #tasty h6 {
+        margin: 0px 200px;
+    }
+    #nature {
+        width: 100%;
+        margin-top: 4300px;
+    }
+    #nature #upper{
+        position: absolute;
+        z-index: 40;
+
+    }
+    #nature h6 {
+        margin: 0px;
+        margin-right: 30px;
+        margin-top: -30px;
+    }
+    #nature h1{
+        font-size: 30px;
+    }
+    #nature p{
+        font-size: 16px;
+    }
+    #nature .btn {
+        margin-top: 20px;
+    }
+    #nature #natures {
+        padding: 30px 0px;
+    }
+    #nature img{
+        width: 100%;
+    }
+    #menu img{
+        width: 100%;
+    }
+}
+@media(max-width:596px){
+    #header{
+        position: absolute;
+        top: -20px;
+        background-color: #f8e4c4;
+    }
+    #home{
+        top: 70px;
+    }
+    #home img{
+        width: 150%;
+    }
+    #home .upper {
+        position: absolute;
+        z-index: 30;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    #home h1{
+        font-size:22px;
+    }
+    #home p{
+        margin-top: 4px;
+    font-size: 14px;
+    margin-right: 100px;
+    }
+    #home .btn{
+        margin-top: -12px;
+        font-size: 13px;
+        padding: 10px;
+    }
+    #choose h6 {
+        margin: 0px 95px;
+    }
+    #choose {
+        margin-top: 330px;
+    }
+    #choose h1{
+        font-size: 25px;
+    }
+    #choose .card {
+        border: none;
+        padding: 0px 20px;
+    }
+    #fast-food {
+        margin-top: 2100px;
+        width: 108%;
+    }
+    #fast-food .upper-pic {
+        margin-left: 195px;
+        margin-top: 110px;
+    }
+    #fast-food .upper-pic img {
+        width: 100%;
+    }
+    #fast-food h4 {
+        font-size: 16px;
+        margin-left: 18px;
+        margin-top: -80px;
+    }
+    #fast-food h6 {
+        margin-left: 0px;
+    }
+
+    #fast-food img{
+        width: 80%;
+    }
+    #fast-food h1 {
+        font-size: 30px;
+    }
+    #fast-food p {
+        color: #6e6e6e;
+        margin-right: 30px;
+        font-size: 14px;
+    }
+    #fast-food .btn {
+        margin-top: 40px;
+        font-size: 14px;
+        padding: 15px;
+    }
+    #tasty {
+        margin-top: 3120px;
+    }
+    #tasty h6 {
+        margin: 0px 110px;
+    }
+    #tasty h1{
+        font-size: 30px;
+    }
+    #tasty .card{
+        padding: 0px 50px;
+    }
+    #tasty .card h3 {
+        font-size: 25px;
+    }
+    #tasty .upper-pic img {
+        width: 80%;
+    }
+    #tasty h5 {
+        margin-top: -60px;
+    }
+    #nature {
+        height: 150%;
+        width: 100%;
+        margin-top: 5300px;
+    }
+    #nature h6 {
+       
+        margin-right: 135px;
+        margin-top: -30px;
+    }
+    #nature .btn {
+        font-size: 14px;
+       
+    }
+    #nature h6 {
+        margin-right: 35px;
+    }
+   #nature h4{
+    font-size: 22px;
+   }
+   #menu .col-md-4 img {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+#menu .pic-upper {
+    margin-left: 20px;
+}
+#menu .pic-upper h1 {
+    font-size: 30px;
+}
+#menu-offers .col-md-6 {
+    margin-top: 0px;
+}
+#menu-offers #side {
+    padding: 0px;
+    margin: 40px 20px;
+}
+#nature .col-2 img {
+    width: 200%;
+}
+#menu-offers h3 {
+    font-size: 18px;
+}
+#menu-offers .borders {
+    padding: 10px;
+}
+#menu-offers .col-6 {
+    padding-right: 0px;
+    padding-left: 20px;
+}
+#menu-offers .col-2{
+    
+}
+#mobile {
+    height: 80%;
+}
+#mobile .col-md-6{
+    margin-top: 100px;
+}
+#mobile #btn-1,#btn-2{
+    width: 70%;
+     margin:0px;
+    margin: 30px auto;
+}
+#mobile #btn-2{
+    margin: 0px auto;
+}
+#nature .borders .btn {
+    margin-top: -45px;
+}
+#nature h6 {
+    margin-right: 150px;
+}
+#nature .upper-menu h6{
+    margin-right: 40px;
+}
+#nature #natures h6{
+    margin-right: 135px;
+}
+    #menu .upper-menu {
+        margin-left: 170px;
+        margin-top: 50px;
+    }
+    #menu .col-md-4 img {
+        margin-left: 0px;
+    }
+    
+    #latest {
+        margin-top: 0px;
+        text-align: center;
+    }
+    #latest h6{
+      text-align: center;
+      margin: 0px;
+      margin: 0px 70px;
+      }
+    #latest .col-md-4{
+        margin: 0px 20px;
+    }
+
+    #book-now {
+        margin-top: -110px;
+        height: 100%;
+    }
+    #book-now .container-fluid {
+        padding: 10px;
+        
+    }
+    #book-now .media img {
+        background-color: white;
+        padding: 15px;
+        border-radius: 20px;
+        width: 25%;
+    }
+    #book-now .media p {
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+    #book-now #table {
+        margin-top: 100px;
+    }
+  
+    #nature img {
+        width: 100%;
+    }
+    #footer-logos {
+        padding-top: 200px;
+    }
+    #footer-logos img{
+        width: 40%;
+    }
+    footer{
+        font-size: 14px;
+    }
+}
